@@ -12,3 +12,6 @@ Examen práctico automatización.
    navegue en cada uno de los ítems del menú lateral que están remarcados en la imagen de
    abajo, toda la sesión de selenium en el navegador deberá de ser grabada por medio de
    web drivermanager.
+
+
+//No pude completar la parte de web drivermanager.

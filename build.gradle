@@ -4,3 +4,29 @@
  * This is a general purpose Gradle build.
  * To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.7/samples
  */
+plugins {
+    id 'java'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dependencia de Selenium WebDriver
+    implementation 'org.seleniumhq.selenium:selenium-java:4.28.1'
+
+    // Dependencia para WebDriverManager
+    implementation 'io.github.bonigarcia:webdrivermanager:5.9.3'
+// Apache commons IO for file handling (for screenshots)
+    //implementation 'org.apache.commons:commons-io:2.11.0'
+    // Dependencia de TestNG
+    testImplementation 'org.testng:testng:7.11.0'
+    testImplementation 'org.testng:testng:7.8.0'
+}
+
+
+test {
+    useTestNG()
+}
+
+
