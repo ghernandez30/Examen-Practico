@@ -9,8 +9,6 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-
-
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -50,5 +48,3 @@ public class CapturaPantalla {
         }
     }
 }
-
-
